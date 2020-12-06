@@ -634,6 +634,7 @@ footer div {
         left: 150px;
         top: 0px;
         height: 190px;
+        z-index: 50;
     }
 
     .drop-down-menu ul li {

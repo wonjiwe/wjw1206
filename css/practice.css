@@ -605,7 +605,7 @@ footer div {
         align-items: center;
         justify-content: flex-start;
         width: 60%;
-        height: 383px;
+        height: 60%;
     }
 
     #menu:checked ~ ul {
@@ -634,7 +634,6 @@ footer div {
         left: 150px;
         top: 0px;
         height: 190px;
-        z-index: 50;
     }
 
     .drop-down-menu ul li {

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/practice.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/wjw.js"></script>
 
 </head>
 
@@ -19,80 +20,111 @@
     <header>
         <nav>
             <div class="menu_container">
-                <a href="" class="logo"><img src="img/logo.png"></a>
+                <a href="http://www.1967yuanfeng.com.tw/" class="logo"><img src="img/logo.png"></a>
                 <input type="checkbox" id="menu">
                 <label for="menu"><i class="fas fa-bars"></i></label>
                 <ul class="menuList">
-                    <li><a href="#news">最新消息</a></li>
-                    <li><a href="#about">關於源豐</a></li>
-                    <li class="drop-down-menu"><a href="#">光明燈</a>
+                    <li><a href="news.html">最新消息</a></li>
+                    <li class="drop-down-menu"><a href="category.html">光明燈</a>
                         <ul>
-                            <li><a href="">產品1</a></li>
-                            <li><a href="">產品2</a></li>
-                            <li><a href="">產品3</a></li>
+                            <li><a href="oled.html">平面OLED電腦燈</a></li>
+                            <li><a href="new.html">新型光明燈</a></li>
+                            <li><a href="traditional.html">傳統光明燈</a></li>
                         </ul>
                     </li>
-                    <li><a href="">鐘‧鼓‧爐</a></li>
-                    <li><a href="">寺廟商品</a></li>
-                    <li><a href="">客戶案例</a></li>
+                    <li><a href="case.html">客戶案例</a></li>
+                    <li><a href="bell.html">鐘‧鼓‧爐</a></li>
+                    <li><a href="other.html">寺廟商品</a></li>
+                    <li><a href="#">線上尋燈</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-
-    <div class="product_type">
-        <div class="worko-tabs">
-
-            <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
-            <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
-            <input class="state" type="radio" title="tab-three" name="tabs-state" id="tab-three" />
-            <input class="state" type="radio" title="tab-four" name="tabs-state" id="tab-four" />
-            <input class="state" type="radio" title="tab-five" name="tabs-state" id="tab-five" />
-            <input class="state" type="radio" title="tab-six" name="tabs-state" id="tab-six" />
-
-            <div class="tabs flex-tabs">
-                <label for="tab-one" id="tab-one-label" class="tab">樣式1</label>
-                <label for="tab-two" id="tab-two-label" class="tab">樣式2</label>
-                <label for="tab-three" id="tab-three-label" class="tab">樣式3</label>
-                <label for="tab-four" id="tab-four-label" class="tab">樣式4</label>
-                <label for="tab-five" id="tab-five-label" class="tab">樣式5</label>
-                <label for="tab-six" id="tab-six-label" class="tab">樣式6</label>
-
-
-                <div id="tab-one-panel" class="panel active">
-                    <img src="img/slider/1.jpg">
+    <div class="container">
+        <div class="kind">
+            <div class="content">
+                <div class="intro">
+                    <p>平面OLED電腦燈</p>
+                    <div class="box"><img src="img/category/oled/2.jpg"></div>
+                    <h3>旗艦 / 平面 / 便利</h3>
+                    <a href="oled.html" class="btn">點我了解</a>
                 </div>
-                <div id="tab-two-panel" class="panel">
-                    <img src="img/slider/2.jpg">
+                <div class="intro">
+                    <p>新型光明燈</p>
+                    <div class="box"><img src="img/category/new/2.jpg"></div>
+                    <h3>豪華 / 神尊 / 莊嚴</h3>
+                    <a href="new.html" class="btn">點我了解</a>
                 </div>
-                <div id="tab-three-panel" class="panel">
-                    <img src="img/slider/3.jpg">
-                </div>
-                <div id="tab-four-panel" class="panel">
-                    <img src="img/slider/4.jpg">
-                </div>
-                <div id="tab-five-panel" class="panel">
-                    <img src="img/slider/5.jpg">
-                </div>
-                <div id="tab-six-panel" class="panel">
-                    <img src="img/slider/6.jpg">
+                <div class="intro">
+                    <p>傳統光明燈</p>
+                    <div class="box"><img src="img/category/traditional/2.jpg"></div>
+                    <h3>經典 / LED / 節省</h3>
+                    <a href="traditional.html" class="btn">點我了解</a>
                 </div>
             </div>
-
         </div>
+
+
+        <div class="product_type">
+            <div class="worko-tabs">
+
+                <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
+                <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
+                <input class="state" type="radio" title="tab-three" name="tabs-state" id="tab-three" />
+                <input class="state" type="radio" title="tab-four" name="tabs-state" id="tab-four" />
+                <input class="state" type="radio" title="tab-five" name="tabs-state" id="tab-five" />
+                <input class="state" type="radio" title="tab-six" name="tabs-state" id="tab-six" />
+
+                <div class="tabs flex-tabs">
+                    <label for="tab-one" id="tab-one-label" class="tab">壁式</label>
+                    <label for="tab-two" id="tab-two-label" class="tab">單柱式</label>
+                    <label for="tab-three" id="tab-three-label" class="tab">屏風式</label>
+                    <label for="tab-four" id="tab-four-label" class="tab">多柱式</label>
+                    <label for="tab-five" id="tab-five-label" class="tab">包柱式</label>
+                    <label for="tab-six" id="tab-six-label" class="tab">塔式</label>
+
+                    <div id="tab-one-panel" class="panel active">
+                        <img src="img/category/type/w1.jpg">
+                        <img src="img/category/type/w2.jpg">
+                    </div>
+                    <div id="tab-two-panel" class="panel">
+                        <img src="img/category/type/s1.jpg">
+                        <img src="img/category/type/s2.jpg">
+                    </div>
+                    <div id="tab-three-panel" class="panel">
+                        <img src="img/category/type/sc1.jpg">
+                        <img src="img/category/type/sc2.jpg">
+                    </div>
+                    <div id="tab-four-panel" class="panel">
+                        <img src="img/category/type/m1.jpg">
+                        <img src="img/category/type/m2.jpg">
+                    </div>
+                    <div id="tab-five-panel" class="panel">
+                        <img src="img/category/type/c1.jpg">
+                        <img src="img/category/type/c2.jpg">
+                    </div>
+                    <div id="tab-six-panel" class="panel">
+                        <img src="img/category/type/t1.jpg">
+                        <img src="img/category/type/t2.jpg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a class="to-top"><img src="img/arrowup.png"></a>
     </div>
+
     <footer>
         <div>
             <div class="keywords">
                 <ul>
-                    <li>平面式LCD電腦光明燈</li><span>｜</span>
+                    <li><a href="oled.html">平面式OLED電腦光明燈</a></li><span>｜</span>
+                    <li><a href="new.html">新型光明燈</a></li><span>｜</span>
                     <li>光明燈</li><span>｜</span>
-                    <li><a href="newpc.html">電腦光明燈</a></li><span>｜</span>
                     <li>光明燈工廠直營</li><span>｜</span>
                     <li>光明燈專業廠商</li><span>｜</span>
                     <li>光明燈製造廠</li><span>｜</span>
                     <li>寺廟用品</li>
-
                 </ul>
             </div>
             <div class="contact">

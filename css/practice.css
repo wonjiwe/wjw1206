@@ -1260,11 +1260,10 @@ footer div {
         text-align: center;
     }
 
-    .information {
+    .information a {
         flex-direction: column;
         position: relative;
         padding: 20 0px;
-        border-bottom: 1px solid rgba(103, 9, 10, 0.9);
     }
 
     .information_left {
